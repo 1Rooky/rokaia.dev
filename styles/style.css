@@ -1,0 +1,36 @@
+html,
+body {
+  min-height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #000;
+  color: #fff;
+}
+.pizza-clicker {
+    height: 100px;
+}
+  
+.pizza-clicker:hover {
+    transform: scale(1.1);
+}
+.pizza-clicker-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pizza-clicker-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(2);
+}
+.title {
+    margin-bottom: 75px;
+    font-size: 2em; 
+    text-align: center;
+}
+
